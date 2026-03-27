@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #111;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 36px;
+  color: cyan;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+/* Section */
+section {
+  padding: 40px;
+}
+
+/* Cards */
+.card {
+  background: #111;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: #222;
+}
+
+/* Contact */
+#contact .card {
+  width: 250px;
+}
+
+/* Coming text */
+.coming {
+  margin-top: 20px;
+  color: cyan;
+  font-size: 18px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background: cyan;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: white;
+}
